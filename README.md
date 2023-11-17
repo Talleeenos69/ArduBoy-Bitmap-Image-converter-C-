@@ -1,18 +1,22 @@
-# ArduBoy-Bitmap-Image-converter-C++
-A port of the [arduboy bitmap converter](http://www.bloggingadeadhorse.com/TeamARGImgConverter/) but written in c++ so that the script can be easily used in other projects without  the need to use JavaScript.
+# ArduBoy Bitmap Image Converter (C++)
 
-# How to use
+This project is a C++ port of the [Arduboy bitmap converter](http://www.bloggingadeadhorse.com/TeamARGImgConverter/), designed to facilitate easy integration into various projects without relying on JavaScript.
 
-This code is meant to work on Linux systems that have the X11 library installed. This does not mean that you need to be running X11 for it to work.
+## How to Use
+
+This code is tailored for Linux systems with the X11 library installed. However, it doesn't require running X11 for functionality.
 
 ### Dependencies
 - gcc
 - libx11-dev
 - CImg
 
-### Compile
-```g++ main.cpp -o converter -lX11```
+### Compilation
+```
+g++ main.cpp -o converter -lX11
+```
 
-### Run
-
-```./converter```
+### Execution
+```
+./converter
+```
