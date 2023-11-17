@@ -1,4 +1,4 @@
-# ArduBoy-Bitmap-Image-converter-C-
+# ArduBoy-Bitmap-Image-converter-C-plus-plus
 A port of the arduboy bitmap converter but written in c++ so that the script can be easily used in other projects without  the need to use JavaScript.
 
 # How to use
