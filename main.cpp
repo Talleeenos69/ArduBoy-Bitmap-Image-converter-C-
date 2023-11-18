@@ -66,6 +66,6 @@ void generateArduinoBitmap(const std::string& imagePath) {
 }
 
 int main(){
-    std::string image_path = "/home/tallen/Downloads/meme.jpg";
+    std::string image_path = ""; // Add the path to the image file
     generateArduinoBitmap(image_path);
 }
