@@ -9,7 +9,7 @@ using namespace cimg_library;
 
 void generateArduinoBitmap(const std::string& imagePath) {
 
-    cimg_library::CImg<unsigned char> image(imagePath.c_str());
+    CImg<unsigned char> image(imagePath.c_str());
 
     if (image.is_empty()) {
         std::cerr << "Error: Unable to load the image." << std::endl;
