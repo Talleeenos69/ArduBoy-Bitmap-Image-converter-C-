@@ -65,7 +65,14 @@ void generateArduinoBitmap(const std::string& imagePath) {
     std::cout << spriteString;
 }
 
-int main(){
-    std::string image_path = ""; // Add the path to the image file
+int main(int argc, char* argv[]) {
+    if (argc != 2) {
+        std::cerr << "Usage: " << argv[0] << " <image_path>" << std::endl;
+        return 1;
+    }
+
+    std::string image_path = argv[1];
     generateArduinoBitmap(image_path);
+
+    return 0;
 }

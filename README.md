@@ -32,7 +32,7 @@ Clone the repo and cd into it
 git clone https://github.com/Talleeenos69/ArduBoy-Bitmap-Image-converter-C-plus-plus && cd ./ArduBoy-Bitmap-Image-converter-C-plus-plus
 ```
 
-Nest, you need to download the CImg library from the official site and extract it to the project directory
+Next, you need to download the CImg library from the official site and extract it to the project directory
 ```
 wget https://cimg.eu/files/CImg_latest.zip
 ```
