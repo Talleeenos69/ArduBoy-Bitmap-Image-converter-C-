@@ -1,5 +1,5 @@
 #include <iostream>
-#include <CImg.h>
+#include "CImg-3.3.5_pre02222415/CImg.h"
 #include <cstdint>
 #include <cmath>
 #include <string>
